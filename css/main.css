@@ -1,0 +1,63 @@
+:root {
+    -color-light-blu: #C1ECFF;
+
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: #C1ECFF;
+    padding: 15px 15px;
+    font-size: 20px;
+}
+
+ 
+
+header nav ul{
+    text-align: right;
+    display: grid;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: auto;
+    display: flex;
+}
+
+header div{
+   background-color: #C1ECFF;
+}
+
+header nav{
+    justify-self: center;
+}
+
+ section.new-tovar {
+    padding: 80px 6vw;
+    display: grid;
+    row-gap: 36px;
+    padding-top: 40px;
+ }
+ 
+  section.new-tovar div{
+    display: grid;
+    column-gap: 2vw;
+    grid-template-columns: repeat(4, 1fr);
+ }
+ 
+  section.new-tovar div article{
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    row-gap: 24px;
+ }
+
+ section.categor div{
+    word-spacing: 30px;
+   text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+
+ }
+
+
+ section.librarium form{
+    text-align: center;
+ }
+
